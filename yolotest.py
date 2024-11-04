@@ -4,7 +4,7 @@ import pyttsx3
 from collections import Counter
 import threading
 
-model = YOLO('best.pt') // Enter the name of your model file here
+model = YOLO('yolov8l.pt') 
 print(model.names)
 textt = "I see "
 FPS_wait_coutner = 15
